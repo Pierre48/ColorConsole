@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ColorConsole.Fonts;
+using System;
+using System.Collections.Generic;
 
 namespace ColorConsole
 {
@@ -43,6 +45,34 @@ namespace ColorConsole
             {
                 Console.ForegroundColor = previousColor;
             }
+        }
+
+
+        /// <summary>
+        /// Used to write a line in the console
+        /// </summary>
+        /// <param name="value">The text to write</param>
+        /// <param name="color">The color that must be used</param>
+        public static void WriteLine<F>(string value, ConsoleColor color = ConsoleColor.White, FontDefinition fontDefinition = null)
+            where F : Font, new()
+        {
+            var font = Activator.CreateInstance<F>();
+            var text = font.Convert(value, fontDefinition);
+            WriteLine(text, color);
+        }
+
+        /// <summary>
+        /// Used to write text in the console
+        /// </summary>
+        /// <param name="value">The text to write</param>
+        /// <param name="color">The color that must be used</param>
+        public static void Write<F>(string value, ConsoleColor color = ConsoleColor.White,  FontDefinition fontDefinition = null)
+            where F : Font, new()
+        {
+            var font = Activator.CreateInstance<F>();
+
+            var text = font.Convert(value, fontDefinition);
+            WriteLine(text, color);
         }
     }
 }
