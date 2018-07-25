@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/Pierre48/ColorConsole</licenseUrl>
     <projectUrl>https://github.com/Pierre48/ColorConsole</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>An advanced implementation of Console Object</description>
     <releaseNotes>Development version...</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>Console Color Standard AsciiArt</tags>
