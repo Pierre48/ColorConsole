@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Doguei48</Authors>
+    <Company>Doguei48</Company>
+    <PackageLicenseUrl>https://github.com/Pierre48/ColorConsole</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Pierre48/ColorConsole</PackageProjectUrl>
+    <PackageReleaseNotes />
+    <PackageTags>standard console color</PackageTags>
   </PropertyGroup>
 
 </Project>
