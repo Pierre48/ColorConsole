@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://github.com/Pierre48/ColorConsole</PackageProjectUrl>
     <PackageReleaseNotes />
     <PackageTags>standard console color</PackageTags>
+    <PackageId>ColorConsole48</PackageId>
   </PropertyGroup>
 
 </Project>
