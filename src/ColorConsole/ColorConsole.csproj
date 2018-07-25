@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Doguei48</Authors>
     <Company>Doguei48</Company>
     <PackageLicenseUrl>https://github.com/Pierre48/ColorConsole</PackageLicenseUrl>
